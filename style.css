@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+   
+    background-color:#f0f2f5;
+}
+
+main{
+    margin: 100px 0px;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    margin-left: 430px;
+    margin-top: 180px;
+}
+
+
+.title img{
+    height: 103px;
+    width: 302px;
+    margin-bottom: -10px;
+}
+.text{
+    padding-top: 0px;
+    height: 85px;
+    width: 500px;
+    font-size: 28px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 33px;
+}
