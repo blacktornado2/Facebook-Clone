@@ -9,15 +9,20 @@ body{
 
 main{
     margin: 100px 0px;
+    font-family: Arial, Helvetica, sans-serif;
+
 }
 .container{
     display: flex;
     flex-direction: column;
     margin-left: 430px;
     margin-top: 180px;
+    width: 600px;
 }
 
-
+.title{
+    width: 500px;
+}
 .title img{
     height: 103px;
     width: 302px;
@@ -28,6 +33,82 @@ main{
     height: 85px;
     width: 500px;
     font-size: 28px;
-    font-family: Arial, Helvetica, sans-serif;
+    
     margin-left: 33px;
+}
+
+.form-container{
+
+    width: 400px;
+    margin-left: 1100px;
+    border-radius: 5px;
+    margin-top: -210px;
+}
+
+.form-container form{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 320px;
+    width: 400px;
+    font-family: inherit
+}
+
+.form-container a{
+    text-decoration: none;
+    margin:15px 0px;
+}
+
+.form-container hr{
+    margin: 10px 0px;
+}
+
+.inputs{
+    display: flex;
+    flex-direction: column;
+}
+
+.inputs input{
+    padding: 5px 20px;
+    margin: 5px 5px;
+    font-size: 17px;
+    padding: 14px 16px;
+    width: 330px;
+    background: #FFFFFF url(/rsrc.php/v3/yO/r/YQNfPR9MJfx.png) repeat-x;
+    border: 1px solid #dddfe2;
+    color: #1d2129;
+}
+#email{
+    margin-top: 10px;
+}
+
+#password{
+    margin-bottom: 20px;
+}
+
+.btn{
+    color: white;
+    font-weight: bolder;
+}
+
+.log-in-btn{
+    background-color: #166fe5;
+    border-radius: 6px;
+    font-size: 20px;
+    line-height: 48px;
+    padding: 0 16px;
+    width: 332px;
+}
+
+
+.log-in-btn:hover{
+    
+    background-color: #365899;
+}
+
+.create-account-btn{
+    background-color: green;
+    padding: 10px 100px;
+
 }
